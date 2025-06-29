@@ -1,0 +1,3 @@
+static_site:
+  build_command: "none"  # ½ûÓÃ¹¹½¨ÃüÁî 
+  deploy_directory: "."
