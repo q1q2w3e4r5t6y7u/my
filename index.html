@@ -1,65 +1,65 @@
-
-<超文本标记语言>
-<头>
+﻿<!doctype html>
+<html>
+<head>
 <meta charset="utf-8">
 <title>我的笔记</title>
 	
-	<样式>
+	<style>
 		
 		
 		
-		页脚
-			宽度：100%；
-			高度：50px；
-			位置：相对；
-			底部：0;
-			背景颜色: rgba(218,218,218,1.00);
+		footer{
+			width: 100%;
+			height: 50px;
+			position: relative;
+			bottom: 0;
+			background-color: rgba(218,218,218,1.00);
 			z-index: 666;
 			box-shadow: 0 -4px 4px rgba(0,0,0,.2);
 			border-radius: 50% 50% 0 0 ;
 		}
 		h2{
-			文本缩进：-20像素
-		输入：}
-
-			位置：相对;
-			宽度：70%;
-			边距：0 自动;
-		输入：}
+			text-indent: -20px
+		}
+		.content{
+			position: relative;
+			width: 70%;
+			margin: 0 auto;
+		}
 		
-		标题{
-			位置：固定;
-			左：0像素;
-			右：0像素;
-			顶部：0;
-			背景颜色：rgba（150，185，125，1.00）;
-			高度：40像素;
-			显示: 弹性布局;
-			弹性流向: 行;
-			对齐项目：居中；
-			文本对齐方式：居中;
-			弹性换行：不换行；
+		header{
+			position: fixed;
+			left: 0px;
+			right: 0px;
+			top: 0;
+			background-color: rgba(150,185,125,1.00);
+			height: 40px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: nowrap;
     		z-index: 665;
 			box-shadow: 0 4px 4px rgba(0,0,0,.2);
 			border-radius: 0 0 50% 50% ;
 		}
 		
-		侧边栏
+		aside{
     		z-index: 662;
     		overflow: hidden;
 			overflow-y: visible;
-			位置：固定；
-			宽度：10%；
-			背景颜色：水绿色；
-			边距：0；
-			填充: 0;
-			顶部: 0px;
-    		底部：0;
+			position: fixed;
+			width: 10%;
+			background-color: aqua;
+			margin: 0;
+			padding: 0;
+			top: 0px;
+    		bottom: 0;
 		}
 		
 		
-		# 左侧{
-			左: 0px;
+		#leftaside{
+			left: 0px;
 			box-shadow: 4px 0 4px rgba(0,0,0,.5);
 		}
 		
@@ -1638,7 +1638,7 @@ p.setAttributeNode(id)
 </div>
 	
 	<div style="width: 100%;height: 200px"></div>
-	<footer></footer>
+	<footer><p style="text-align: center">持续更新</p></footer>
 	
 	<script>
 	
