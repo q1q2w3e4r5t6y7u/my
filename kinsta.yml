@@ -1,3 +1,0 @@
-﻿static_site:
-  build_command: "none"  # 禁用构建命令 
-  deploy_directory: "."
