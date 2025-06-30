@@ -1,0 +1,27 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.webp
+/*.avif
+/*.jpg
+/*.jpeg
+/*.png
+  Cache-Control: public, max-age=2592000
+
+/*.svg
+/*.woff
+/*.woff2
+/*.ttf
+/*.eot
+  Cache-Control: public, max-age=31536000, immutable
